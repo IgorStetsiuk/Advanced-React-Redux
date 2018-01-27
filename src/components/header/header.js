@@ -21,6 +21,7 @@ export class Header extends Component {
     render() {
         const {authenticated} = this.props;
 
+
         return (
             <ul>
                 <li>
