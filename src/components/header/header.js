@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
-
+import {Redirect} from 'react-router-dom';
 import {Button} from "../button/button";
 
 
@@ -33,6 +33,7 @@ export class Header extends Component {
                 <li>
                     {this.authButton()}
                 </li>
+                {this.props.children}
             </ul>
         );
     }
