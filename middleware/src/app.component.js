@@ -1,12 +1,13 @@
-import React, {Component} from 'react';
-import {HeaderContainer} from "./containers/header/header.container";
+import React, { Component } from 'react';
+import  UserListContainer  from './containers/UserListContainer/UserListContainer';
+import './index.css';
 
 class App extends Component {
-    render() {
-        return (
-            <HeaderContainer/>
-        );
-    }
+  render() {
+    return (
+      <UserListContainer/>
+    );
+  }
 }
 
 export default App;

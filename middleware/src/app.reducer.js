@@ -1,6 +1,9 @@
-import {combineReducers} from 'redux';
-import {headerReducer} from "./shared/reducers/header.reducer";
+import { combineReducers } from 'redux';
+import userReducer from './shared/reducers/user.reducer';
 
-export default combineReducers({
-    authenticated:headerReducer
+
+const rootReducer = combineReducers({
+  users: userReducer
 });
+
+export default rootReducer;
