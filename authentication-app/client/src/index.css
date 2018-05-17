@@ -1,0 +1,5 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+#root {
+    display: flex;
+    justify-content: center;
+}
